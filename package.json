@@ -1,7 +1,7 @@
 {
   "name": "bustop",
   "version": "1.0.0",
-  "description": "Describe bustop here",
+  "description": "WIP",
   "private": true,
   "scripts": {
     "build": "nwb build-preact-app",
@@ -12,13 +12,17 @@
     "test:watch": "nwb test-preact --server"
   },
   "dependencies": {
+    "axios": "^0.15.3",
     "preact": "^7.1.0",
     "preact-compat": "^3.10.0"
   },
   "devDependencies": {
     "nwb": "0.14.x"
   },
-  "author": "",
+  "standard": {
+    "jsxPragma": "h"
+  },
+  "author": "Amio <amio.cn@gmail.com>",
   "license": "MIT",
-  "repository": ""
+  "repository": "amio/bustop"
 }

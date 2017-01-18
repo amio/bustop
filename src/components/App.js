@@ -14,7 +14,6 @@ export default class App extends Component {
   }
   render (props, state) {
     return <div className='App'>
-      <div className='header'>.</div>
       { state.stopLines || <span>Loading...</span> }
       { state.stopLines && state.stopLines.map(line => <StopLinePanel data={line} />)}
     </div>
